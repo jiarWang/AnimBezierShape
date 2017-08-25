@@ -2,7 +2,7 @@
 
 ## How to use ?
  
- 1) DownLoad [AnimBezierShape.js] and copy to you project file;
+ 1) DownLoad [AnimBezierShape.js][1] and copy to you project file;
 
  2) `import` this component by:
 
@@ -46,7 +46,7 @@
  ```
   ***Note***: `AnimBezierShape` is based on `ART`,so you should `import {ART} from 'react-native'`,before use `AnimBezierShape`.
 
- ## Props in `AnimBezierShpe`
+ ### Props in `AnimBezierShpe`
 
  Property | Type | Must | tag
 :-:|:-:|:-:|:-:
@@ -84,8 +84,9 @@ In Milliseconds, if you don't want render this `AnimBezierShape` right now, you 
 ### `stroke`
 The stroke's color, default 'red'
 
-###`strokeWidth`
+### `strokeWidth`
 
 The stroke's width, default 1
 
 
+[1]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/src/component/AnimBezierShape.js
