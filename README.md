@@ -8,15 +8,11 @@ if you couldn't reach this video, you can download this [apk][4] in you phone, i
 
 ## How to use ?
  
- 1) DownLoad [AnimBezierShape.js][1] and copy to you project file;
+ *  `npm install art-anim-bezier-shape`;
 
- 2) `import` this component by:
+ * `AnimBezierShape = require('art-anim-bezier-shape');`:
 
- ```jsx
- import AnimBezierShape from './src/component/AnimBezierShape';
- ```
-
- 3) Using it in your `ART.Surface`, just like use a `ART.Shape`, for example:
+Then your can Using it in your `ART.Surface`, just like use a `ART.Shape`, for example:
 
  ```jsx
  export default class AnimBezier extends Component {
