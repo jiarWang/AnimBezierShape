@@ -1,5 +1,11 @@
 # AnimBezierShape
 
+## Introduction
+
+A [video][2] about `AnimBezierShape`;
+
+if you couldn't reach this video, you can download this [apk][4] in you phone, it's is just a very simple bezier.
+
 ## How to use ?
  
  1) DownLoad [AnimBezierShape.js][1] and copy to you project file;
@@ -90,3 +96,5 @@ The stroke's width, default 1
 
 
 [1]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/src/component/AnimBezierShape.js
+[2]:https://www.youtube.com/watch?v=BrToj99cEHo&feature=youtu.be
+[4]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/android/app/app-release.apk
