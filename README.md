@@ -10,7 +10,7 @@ if you couldn't reach this video, you can download this [apk][4] in you phone, i
  
  *  `npm install art-anim-bezier-shape`;
 
- * `AnimBezierShape = require('art-anim-bezier-shape');`:
+ * `const AnimBezierShape = require('art-anim-bezier-shape');`:
 
 Then your can Using it in your `ART.Surface`, just like use a `ART.Shape`, for example:
 
