@@ -1,0 +1,29 @@
+{
+  "name": "art-anim-bezier-shape",
+  "version": "0.1.23",
+  "auth": "wangjian",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {},
+  "description": "A bezier shape in React-Native based on ART",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiarWang/AnimBezierShape.git"
+  },
+  "keywords": [
+    "ART",
+    "React-Native",
+    "Android",
+    "IOS",
+    "Bezier",
+    "Animation"
+  ],
+  "author": "wangjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiarWang/AnimBezierShape/issues"
+  },
+  "homepage": "https://github.com/jiarWang/AnimBezierShape#readme"
+}

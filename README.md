@@ -10,13 +10,16 @@ if you couldn't reach this video, you can download this [apk][4] in you phone, i
  
  *  `npm install art-anim-bezier-shape`;
 
- * `AnimBezierShape = require('art-anim-bezier-shape');`:
+ * `const AnimBezierShape = require('art-anim-bezier-shape');`:
 
 Then your can Using it in your `ART.Surface`, just like use a `ART.Shape`, for example:
 
  ```jsx
- export default class AnimBezier extends Component {
+ ......
+const AnimBezierShape = require('art-anim-bezier-shape');
 
+ export default class AnimBezier extends Component {
+   ......
   render() {
     return (
       <View style={styles.container}>
@@ -73,6 +76,34 @@ means a bezier curve, the type of this 8 property are `double`:
 
 For getting a consecutive curve we advice you make the Array[i]'s end point equal to Array[i+1]'s start point.If you want a beeline for start-point to end-point, you can insert a
 [sx, sy,sx, sy, ex, ey, ex, ey] in your `path`;
+
+Here is a Circle example, which may help you if a Circle Animation is needed. It was made by two semi-circle:
+
+```jsx
+/* Get window's size , remember to import Dimension before use it*/
+const { width, height } = Dimensions.get('window'); 
+
+render() {
+    let radio = 150;
+    let h = 4.0 / 3.0 * radio;
+   /*start point's location*/
+    let x0 = 30;    
+    let y0 = 300;
+    return (
+      <View style={styles.container}>
+      <ART.Surface width={width} height={height} >
+       <AnimBezierShape path={
+          [
+            [x0, y0, x0, y0 - h, x0 + 2 * radio, y0 - h, x0 + 2 * radio, y0],   
+            [x0 + 2 * radio, y0, x0 + 2 * radio, y0 + h, x0, y0 + h, x0, y0],       
+          ]
+      }  time= {6000} stroke='blue' strokeWidth={4}/>
+      </ART.Surface>
+      </View>
+    );
+  }
+
+```
 
 ### `time`
 Multiple of 100, eg: 1000. 1000 means that it will cost you 1s to draw a bezier, default 1000;
