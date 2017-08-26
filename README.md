@@ -1,4 +1,4 @@
-# AnimBezierShape
+# AnimBezierShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.1.23&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
 
 ## Introduction
 
