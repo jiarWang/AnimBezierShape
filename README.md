@@ -4,7 +4,7 @@
 
 A [video][2] about `AnimBezierShape`;
 
-if you couldn't reach this video, you can download this [apk][4] in you phone, it's just a very simple bezier.
+if you couldn't reach this video, you can download this [apk][4] and install it, it's just a very simple bezier.
 
 ## How to use ?
  
@@ -12,7 +12,7 @@ if you couldn't reach this video, you can download this [apk][4] in you phone, i
 
  * `const AnimBezierShape = require('art-anim-bezier-shape');`:
 
-Then your can Using it in your `ART.Surface`, just like use a `ART.Shape`, for example:
+Then you can Using it in your `ART.Surface`, just like using a `ART.Shape`, for example:
 
  ```jsx
  ......
@@ -77,10 +77,10 @@ means a bezier curve, the type of this 8 property are `double`:
 
 ***Advice***: 
 
-For getting a consecutive curve we advice you make the Array[i]'s end point equal to Array[i+1]'s start point.If you want a beeline for start-point to end-point, you can insert a
+For getting a consecutive curve we advice you to make the Array[i]'s end point equal to Array[i+1]'s start point.If you want a beeline for start-point to end-point, you can insert a
 [sx, sy,sx, sy, ex, ey, ex, ey] in your `path`;
 
-Here is a Circle example, which may help you if a Circle Animation is needed. It was made by two semi-circle:
+Here is a Circle example, which may help you if a Circle Animation is needed. It is made by two semi-circle:
 
 ```jsx
 /* Get window's size , remember to import Dimension before use it*/
@@ -109,13 +109,13 @@ render() {
 ```
 
 ### `time`
-Multiple of 100, eg: 1000. 1000 means that it will cost you 1s to draw a bezier, default 1000;
+Multiple of 100, eg: 1000. 1000 means that it will cost you 1s to render this `AnimBezierShape`, default 1000;
 
 ### `timeMin`
-Point a small path per `timeMin`, so as the `timeMin` get lesser the bezier will smoother, and more time would waste in rendering ( so we don't recommend this property), default 20.
+Renderring a small path per `timeMin`, so as the `timeMin` get lesser the bezier will smoother, and more time would waste in rendering ( so we don't recommend this property), default 20.
 
 ### `delay`
-In Milliseconds, if you don't want render this `AnimBezierShape` right now, you can set a `delay`, default 0
+In Milliseconds, if you don't want to render this `AnimBezierShape` right now, you can set a `delay`, default 0
 
 ### `stroke`
 The stroke's color, default 'red'
