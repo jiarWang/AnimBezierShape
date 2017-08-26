@@ -4,7 +4,7 @@
 
 A [video][2] about `AnimBezierShape`;
 
-if you couldn't reach this video, you can download this [apk][4] in you phone, it's is just a very simple bezier.
+if you couldn't reach this video, you can download this [apk][4] in you phone, it's just a very simple bezier.
 
 ## How to use ?
  
@@ -16,6 +16,9 @@ Then your can Using it in your `ART.Surface`, just like use a `ART.Shape`, for e
 
  ```jsx
  ......
+ 
+/* Get window's size , remember to import Dimension before use it*/
+const { width, height } = Dimensions.get('window'); 
 const AnimBezierShape = require('art-anim-bezier-shape');
 
  export default class AnimBezier extends Component {
