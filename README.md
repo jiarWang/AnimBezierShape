@@ -14,10 +14,10 @@ There are a video([Tencent][3], [Youtube][2]) to show it.
 
 [Development Document][5];
 ## Version List
- version | date | contributor |
-:-:|:-:|:-:|
-0.1.23|2017/08/25|wangjian
-1.0.0|2017/08/27|wangjian
+ version | date | contributor | Tag
+:-:|:-:|:-:|:-:|
+0.1.23|2017/08/25|wangjian|
+1.0.0|2017/08/27|wangjian|
 
 [1]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/src/component/AnimBezierShape.js
 [2]:https://www.youtube.com/watch?v=BrToj99cEHo&feature=youtu.be
