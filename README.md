@@ -23,4 +23,4 @@ There are a video([Tencent][3], [Youtube][2]) to show it.
 [2]:https://www.youtube.com/watch?v=BrToj99cEHo&feature=youtu.be
 [3]:https://v.qq.com/x/page/v054279dial.html
 [4]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/android/app/app-release.apk
-[5]:./Doc/1.1.0.md
+[5]:https://github.com/jiarWang/AnimBezierShape/blob/master/Doc/1.0.0.md
