@@ -1,6 +1,6 @@
-import AnimBezierShape from './AnimBezierShape';
-import AnimBezierPath  from './path';
+import AnimShape from './AnimBezierShape';
+import AnimPath  from './path';
 export{
-    AnimBezierShape,
-    AnimBezierPath,
+    AnimShape,
+    AnimPath,
 }
