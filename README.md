@@ -8,6 +8,10 @@ When using an `ART.Shape`, we often want a beauty animation on it, but `Animated
 
 Here is a video([Tencent][3], [Youtube][2]) to show it.
 
+<div>
+<a style="display:inline-block"><img src='./Doc/show.gif' padding-top=65px padding-left=18px width=312px height=629px/></a>
+</div>
+
 [Development Document][5]
 
 ## How to get it?

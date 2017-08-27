@@ -14,11 +14,11 @@ import {
   Dimensions
 } from 'react-native';
 import {
-  AnimBezierPath,
-  AnimBezierShape
- } from 'art-anim-bezier-shape';
+  AnimPath,
+  AnimShape
+ } from 'art-anim-shape';
  const { width, height } = Dimensions.get('window');
- let p = AnimBezierPath().moveTo(100, 100)
+ let p = AnimPath().moveTo(100, 100)
                         .lineTo(100, 300)
                         .lineTo(300, 300)
                         .lineTo(250, 250)
@@ -30,11 +30,11 @@ export default class M extends Component {
     return (
       <View style={styles.container}>
       <ART.Surface width={width} height={height} >
-       <AnimBezierShape path={p}  time= {3000} stroke='blue' strokeWidth={4}/>
+       <AnimShape path={p}  time= {3000} stroke='blue' strokeWidth={4}/>
  
-       <AnimBezierShape 
+       <AnimShape 
        path={
-        AnimBezierPath().moveTo(204, 140)
+        AnimPath().moveTo(204, 140)
         .lineTo(104, 230)
         .lineTo(204, 130)
         .lineTo(20, 250)
