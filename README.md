@@ -7,9 +7,12 @@ When using an `ART.Shape`, we often want a beauty animation on it, but `Animated
 
 There are a video([Tencent][3], [Youtube][2]) to show it.
 
+[Development Document][5]
+
 ## How to get it?
 *  `npm install art-anim-bezier-shape`;
-More see  [Doc][5];
+
+[Development Document][5];
 ## Version List
  version | date | contributor |
 :-:|:-:|:-:|
