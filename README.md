@@ -9,7 +9,7 @@ When using an `ART.Shape`, we often want a beauty animation on it, but `Animated
 Here is a video([Tencent][3], [Youtube][2]) to show it.
 
 <div>
-<a style="display:inline-block"><img src='./Doc/show.gif' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block"><img src='./Doc/show.gif' padding-top=65px padding-left=18px width=312px height=559px/></a>
 </div>
 
 [Development Document][5]
@@ -26,6 +26,7 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 1.1.0|2017/08/27|wangjian|
 1.1.1|2017/08/27|wangjian|
 1.1.2|2017/08/27|wangjian|
+1.2.0|2017/08/27|wangjian|
 
 [1]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/src/component/AnimBezierShape.js
 [2]:https://www.youtube.com/watch?v=7ZgaN_PzUyo&feature=youtu.be
