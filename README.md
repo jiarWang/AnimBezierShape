@@ -1,4 +1,4 @@
-# AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.1.2&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
+# AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.0&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
 It's also named `AnimBezierShape` before version 1.1.0
 
 ## What is `AnimShape`?
@@ -32,4 +32,4 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 [2]:https://www.youtube.com/watch?v=7ZgaN_PzUyo&feature=youtu.be
 [3]:https://v.qq.com/x/page/v054279dial.html
 [4]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/android/app/app-release.apk
-[5]:https://github.com/jiarWang/AnimBezierShape/blob/master/Doc/1.1.2.md
+[5]:https://github.com/jiarWang/AnimBezierShape/blob/master/Doc/1.2.0.md
