@@ -53,10 +53,17 @@ module.exports = Class({
 		this.penX = this.penY = 0;
 		this.penDownX = this.penDownY = null;
 		this._pivotX = this._pivotY = 0;
+		this.transX = 0;
+		this.transY = 0;
 		this.onReset();
 		return this;
 	},
-	
+	setTranslate:function(x, y){
+		this.transX = x;
+		this.transY = y;
+		return this;
+	},
+
 	move: function(x,y){
 		this.onMove(this.penX, this.penY, this._pivotX = this.penX += (+x), this._pivotY = this.penY += (+y));
 		return this;
@@ -189,7 +196,8 @@ module.exports = Class({
 	},
 
 	onBezierCurve: function(sx, sy, c1x, c1y, c2x, c2y, ex, ey){
-		this.path.push([sx, sy, c1x, c1y, c2x, c2y, ex, ey]);		
+		//this.path.push([sx + this.transX, sy + this.transY, c1x + this.transX, c1y + this.transY, c2x + this.transX, c2y + this.transY, ex + this.transX, ey + this.transY]);	
+		this.path.push([sx , sy , c1x, c1y , c2x , c2y , ex , ey]);		
 	},
 
 	onArc: function(sx, sy, ex, ey, cx, cy, rx, ry, sa, ea, ccw, rotation){
@@ -227,9 +235,26 @@ module.exports = Class({
 	},
 
 	onClose: function(sx, sy, ex, ey){
-		this.onLine(sx, sy, ex, ey);
+		if(sx === ex && sy=== ey){
+		}else{
+			this.onLine(sx, sy, ex, ey);
+		}
 	},
 	getPointsArray(){
+		if(this.transX ===0 && this.transY === 0){
+		}else{
+			for(let i = 0; i < this.path.length; i ++){
+				
+				this.path[i][0] += this.transX;
+				this.path[i][1] += this.transY;
+				this.path[i][2] += this.transX;
+				this.path[i][3] += this.transY;
+				this.path[i][4] += this.transX;
+				this.path[i][5] += this.transY;
+				this.path[i][6] += this.transX;
+				this.path[i][7] += this.transY;
+			}
+		}
 		return this.path;
 	}
 });

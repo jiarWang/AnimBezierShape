@@ -18,13 +18,15 @@ import {
   AnimShape
  } from 'art-anim-shape';
  const { width, height } = Dimensions.get('window');
- let p = AnimPath().moveTo(100, 100)
+ let p = AnimPath()
+                        .moveTo(100, 100)
                         .lineTo(100, 300)
                         .lineTo(300, 300)
                         .lineTo(250, 250)
                         .lineTo(210, 50)
-                        .lineTo(20, 40)
-                        .close().getPointsArray();
+                        .close()
+                        .setTranslate(50, 100)
+                        .getPointsArray();
 export default class M extends Component {
   render() {
     return (
@@ -34,15 +36,18 @@ export default class M extends Component {
  
        <AnimShape 
        path={
-        AnimPath().moveTo(204, 140)
-        .lineTo(104, 230)
-        .lineTo(204, 130)
-        .lineTo(20, 250)
-        .lineTo(210, 130)
-        .lineTo(224, 40)
+        AnimPath().moveTo(200,101)
+        .arc(0,99,25)
+        .arc(0,-99,25)
         .close().getPointsArray()
      }  
-     time= {3000} stroke='red' strokeWidth={4}/>
+     time= {2000} stroke='red' strokeWidth={4} isRepeat={true}/>
+     <AnimShape 
+     path={
+      AnimPath('M 50.000 60.000 L 61.756 66.180 L 59.511 53.090 L 69.021 43.820 L 55.878 41.910 L 50.000 30.000 L 44.122 41.910 L 30.979 43.820 L 40.489 53.090 L 38.244 66.180 L 50.000 60.000').setTranslate(50, 100).getPointsArray()
+   }  
+   time= {2000} stroke='green' strokeWidth={4} isRepeat={true}/>
+     
      </ART.Surface>
       </View>
     );

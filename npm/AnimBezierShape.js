@@ -34,6 +34,7 @@ class AnimBezier extends Component {
     let delay = this.setValue(this.props.delay, 0);
     let stroke = this.setValue(this.props.stroke, 'red')
     let strokeWidth = this.setValue(this.props.strokeWidth, 1);
+    let isRepeat = this.setValue(this.props.isRepeat, false);
 
     
     let originX = this.setValue(points[0][0], 0);
@@ -62,7 +63,8 @@ class AnimBezier extends Component {
       strokeWidth: strokeWidth,
       timeMin: timeMin,
       points: points,
-      path: ART.Path()
+      path: ART.Path(),
+      isRepeat: isRepeat
     }
 
     this.initState(0);
@@ -93,6 +95,13 @@ class AnimBezier extends Component {
         if (this.state.presentTime + this.params.timeCount%this.params.timeMin  === this.params.timeCount) {
           if(this.bezierCount === this.params.points.length - 1){
             this.timer && clearTimeout(this.timer);
+            if(this.params.isRepeat){
+              this.bezierCount = 0;
+              this.params.path.reset();
+              this.resetParams(this.bezierCount);
+              this.initState();
+              this.startTimer();
+            }
           }else{
             this.bezierCount++;
             this.resetParams(this.bezierCount);

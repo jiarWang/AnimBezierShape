@@ -1,12 +1,12 @@
 {
   "name": "art-anim-shape",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "auth": "wangjian",
   "scripts": {
     "start": "node app"
   },
   "dependencies": {},
-  "description": "Simplify the Componet name",
+  "description": "Fix the bug in setTranslate()",
   "main": "index.js",
   "repository": {
     "type": "git",
