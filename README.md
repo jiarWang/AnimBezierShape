@@ -1,12 +1,12 @@
 # AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.1.0&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
-It's alse named AnimBezierShape before version 1.1.0
+It's also named `AnimBezierShape` before version 1.1.0
 
 ## What is `AnimShape`?
 
-When using an `ART.Shape`, we often want a beauty animation on it, but `Animated` are so limited.
+When using an `ART.Shape`, we often want a beauty animation on it, but `Animated` is so limited.
 `AnimShape` provid a animation in Shape,where you can render smooth curve tardily.
 
-There are a video([Tencent][3], [Youtube][2]) to show it.
+Here is a video([Tencent][3], [Youtube][2]) to show it.
 
 [Development Document][5]
 
