@@ -1,2 +1,6 @@
-const AnimBezierShape =  require('./AnimBezierShape');
-module.exports = AnimBezierShape;
+import AnimBezierShape from './AnimBezierShape';
+import AnimBezierPath  from './path';
+export{
+    AnimBezierShape,
+    AnimBezierPath,
+}

@@ -16,13 +16,14 @@ import {
   Dimensions
 } from 'react-native';
 
+export const Path = require('./path');
+const bezierCount = 0;
 
 class AnimBezier extends Component {
 
   constructor(props) {
     super(props);
     
-
     this.bezierCount = 0;
 
     let points = this.props.path;
@@ -59,7 +60,7 @@ class AnimBezier extends Component {
       delay: delay,
       stroke: stroke,
       strokeWidth: strokeWidth,
-      defaultTimeMin: timeMin,
+      timeMin: timeMin,
       points: points,
       path: ART.Path()
     }
@@ -89,7 +90,7 @@ class AnimBezier extends Component {
     this.timer = setTimeout(
       () => {
         this.startAnimating();
-        if (this.state.presentTime === this.params.timeCount) {
+        if (this.state.presentTime + this.params.timeCount%this.params.timeMin  === this.params.timeCount) {
           if(this.bezierCount === this.params.points.length - 1){
             this.timer && clearTimeout(this.timer);
           }else{
@@ -102,7 +103,7 @@ class AnimBezier extends Component {
           this.startTimer();
         }
       },
-      this.params.defaultTimeMin
+      this.params.timeMin
     );
   }
 
@@ -135,14 +136,14 @@ class AnimBezier extends Component {
     }
   }
   startAnimating() {
-    const part = this.params.timeCount / this.params.defaultTimeMin;
+    const part = this.params.timeCount / this.params.timeMin;
     this.state.presentX0_1 += (this.params.c1X - this.params.originX) / part;
     this.state.presentY0_1 += (this.params.c1Y - this.params.originY) / part;
     this.state.presentX1_2 += (this.params.c2X - this.params.c1X) / part;
     this.state.presentY1_2 += (this.params.c2Y - this.params.c1Y) / part;
     this.state.presentX2_3 += (this.params.targetX - this.params.c2X) / part;
     this.state.presentY2_3 += (this.params.targetY - this.params.c2Y) / part;
-    this.state.presentTime += this.params.defaultTimeMin;
+    this.state.presentTime += this.params.timeMin;
 
     //const n = this.state.presentTime/this.params.defaultTimeMin || 1;
     const t = this.state.presentTime / this.params.timeCount || 1;

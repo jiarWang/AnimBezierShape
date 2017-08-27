@@ -1,12 +1,12 @@
 {
   "name": "art-anim-bezier-shape",
-  "version": "0.1.23",
+  "version": "1.0.0",
   "auth": "wangjian",
   "scripts": {
     "start": "node app"
   },
   "dependencies": {},
-  "description": "A bezier shape in React-Native based on ART",
+  "description": "A bezier shape with animation in React-Native based on ART",
   "main": "index.js",
   "repository": {
     "type": "git",
