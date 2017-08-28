@@ -1,5 +1,12 @@
 # AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.0&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
-It's also named `AnimBezierShape` before version 1.1.0
+It's also named `AnimBezierShape` before version 1.1.0,so please use the newest version.
+
+If you had install `AnimBezierShape` before, please update it, by following steps:
+
+```jsx
+$ npm uninstall art-anim-bezier-shape
+$ npm install art-anim-shape
+```
 
 ## What is `AnimShape`?
 
