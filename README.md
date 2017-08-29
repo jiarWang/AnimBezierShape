@@ -35,6 +35,8 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 1.1.2|2017/08/27|wangjian|
 1.2.0|2017/08/27|wangjian|
 
+E-mail:2946465099@qq.com
+
 [1]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/src/component/AnimBezierShape.js
 [2]:https://youtu.be/WCw3C_P1-yE
 [3]:https://v.qq.com/x/page/v054279dial.html
