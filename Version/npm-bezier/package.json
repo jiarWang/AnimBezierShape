@@ -1,0 +1,29 @@
+{
+  "name": "art-anim-bezier-shape",
+  "version": "1.2.0",
+  "auth": "wangjian",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {},
+  "description": "Fix the bug in setTranslate()",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiarWang/AnimBezierShape.git"
+  },
+  "keywords": [
+    "ART",
+    "React-Native",
+    "Android",
+    "IOS",
+    "Bezier",
+    "Animation"
+  ],
+  "author": "wangjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiarWang/AnimBezierShape/issues"
+  },
+  "homepage": "https://github.com/jiarWang/AnimBezierShape#readme"
+}
