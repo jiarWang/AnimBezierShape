@@ -9,7 +9,7 @@ $ npm install art-anim-shape
 ```
 
 ## What is `AnimShape`?
-
+[中文介绍][6]
 When using an `ART.Shape`, we often want a beauty animation on it, but `Animated` is so limited.
 `AnimShape` provid a animation in Shape,where you can render smooth curve tardily.
 
@@ -40,3 +40,4 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 [3]:https://v.qq.com/x/page/v054279dial.html
 [4]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/android/app/app-release.apk
 [5]:https://github.com/jiarWang/AnimBezierShape/blob/master/Doc/1.2.0.md
+[6]:https://jiarwang.github.io/
