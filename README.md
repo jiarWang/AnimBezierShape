@@ -1,13 +1,6 @@
 # AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.0&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
 It's also named `AnimBezierShape` before version 1.1.0,so please use the newest version.
 
-If you had install `AnimBezierShape` before, please update it, by following steps:
-
-```jsx
-$ npm uninstall art-anim-bezier-shape
-$ npm install art-anim-shape
-```
-
 ## What is `AnimShape`?
 [中文介绍][6]
 When using an `ART.Shape`, we often want a beauty animation on it, but `Animated` is so limited.
@@ -35,6 +28,13 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 1.1.2|2017/08/27|wangjian|
 1.2.0|2017/08/27|wangjian|
 
+## Attach
+If you had install `AnimBezierShape` before, please update it, by following steps:
+
+```jsx
+$ npm uninstall art-anim-bezier-shape
+$ npm install art-anim-shape
+```
 E-mail:2946465099@qq.com
 
 [1]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/src/component/AnimBezierShape.js
