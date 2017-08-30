@@ -1,4 +1,4 @@
-# AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.0&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
+# AnimShape  [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.2.1&x2=0)](https://www.npmjs.com/package/art-anim-bezier-shape)
 It's also named `AnimBezierShape` before version 1.1.0,so please use the newest version.
 
 ## What is `AnimShape`?
@@ -27,6 +27,7 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 1.1.1|2017/08/27|wangjian|
 1.1.2|2017/08/27|wangjian|
 1.2.0|2017/08/27|wangjian|
+1.2.1|2017/08/27|wangjian|
 
 ## Attach
 If you had install `AnimBezierShape` before, please update it, by following steps:

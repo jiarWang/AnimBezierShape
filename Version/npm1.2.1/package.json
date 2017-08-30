@@ -1,0 +1,30 @@
+{
+  "name": "art-anim-shape",
+  "version": "1.2.1",
+  "auth": "wangjian",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {},
+  "description": "All ART.Shape's props can be used, but 'd'",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiarWang/AnimBezierShape.git"
+  },
+  "keywords": [
+    "ART",
+    "React-Native",
+    "动画",
+    "Android",
+    "IOS",
+    "Bezier",
+    "Animation"
+  ],
+  "author": "wangjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiarWang/AnimBezierShape/issues"
+  },
+  "homepage": "https://github.com/jiarWang/AnimBezierShape#readme"
+}
