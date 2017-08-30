@@ -42,5 +42,5 @@ E-mail:2946465099@qq.com
 [2]:https://youtu.be/WCw3C_P1-yE
 [3]:https://v.qq.com/x/page/v054279dial.html
 [4]:https://github.com/jiarWang/AnimBezierShape/blob/master/AnimBezierShape/android/app/app-release.apk
-[5]:https://github.com/jiarWang/AnimBezierShape/blob/master/Doc/1.2.0.md
+[5]:https://github.com/jiarWang/AnimBezierShape/blob/master/Doc/1.2.1.md
 [6]:https://jiarwang.github.io/
