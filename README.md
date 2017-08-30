@@ -30,7 +30,7 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
 1.2.1|2017/08/27|wangjian|
 
 ## Attach
-If you had install `AnimBezierShape` before, please update it, by following steps:
+If you had installed `AnimBezierShape` before, please update it, by following steps:
 
 ```jsx
 $ npm uninstall art-anim-bezier-shape
