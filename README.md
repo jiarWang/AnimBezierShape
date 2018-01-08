@@ -22,11 +22,6 @@ Here is a video([Tencent][3], [Youtube][2]) to show it.
  version | date | contributor | Tag
 :-:|:-:|:-:|:-:|
 0.1.23|2017/08/25|wangjian|
-1.0.0|2017/08/27|wangjian|
-1.1.0|2017/08/27|wangjian|
-1.1.1|2017/08/27|wangjian|
-1.1.2|2017/08/27|wangjian|
-1.2.0|2017/08/27|wangjian|
 1.2.1|2017/08/27|wangjian|
 
 ## Attach
